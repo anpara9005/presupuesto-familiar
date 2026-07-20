@@ -1,0 +1,24 @@
+# Entorno virtual
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Base de datos local (datos personales, no subir)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/exports/
+
+# Variables de entorno
+.env
+*.env
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
